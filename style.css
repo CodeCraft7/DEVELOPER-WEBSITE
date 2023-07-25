@@ -1,0 +1,125 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.developer {
+    background-image: url(img/developer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.text {
+    color: azure;
+    text-align: left;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+.text h2 {
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+.text b {
+    font-weight: 400;
+    margin: 10px;
+    font-size: 70px;
+    letter-spacing: 4px;
+}
+
+.text h1 {
+    margin: 10px;
+    font-size: 40px;
+    letter-spacing: 4px;
+
+}
+
+.work {
+    background-color: black;
+    color: azure;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+    font-weight: 400;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.box-img {
+    box-shadow: 3px 4px 5px black;
+    margin: 50px;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.card1:hover {
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+.card2:hover {
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+.card3:hover {
+    transform: scale(1);
+    transition: 0.2s ease-in;
+}
+
+.box-text h1 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.box-text {
+    padding: 30px;
+}
+.me-container{
+    display: flex;
+    /* color: white; */
+}
+.contact{
+    background-color: rgb(33, 33, 109);
+    width: 50%;
+    padding: 20px 50px;
+}
+.about{
+    background-color: rgb(143, 4, 4);
+    width: 50%;
+    padding: 20px 50px;
+}
+.about p{
+    padding: 10px;
+    font-size:20px;
+}
+.contact p{
+    padding: 10px;
+    font-size:20px;
+}
+.about h1{
+    padding: 10px;
+    font-size: 60px;
+}
+.contact h1{
+    font-size: 60px;
+    padding: 10px;
+}
+.footer{
+    background-color: black;
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 200;
+}
